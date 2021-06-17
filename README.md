@@ -45,6 +45,7 @@ Task 3 - answer
 GeoDNS or traffic router - technology splitting the load between many different PoPs (or Super PoPs). In case of GeoDNS - it's using Geotagging/Geotargetting to split devices into categories and redirect the traffic to the closest PoP/Super PoP. It's not only ensures the best latnecy when handling web requests, but also protects any single PoP/Super PoP from being overloaded as it's also acting as a load balancer redirecting traffic from overloaded servers to the next best PoP.
 
 Clients - recipients of the data - PCs, laptops, servers, mobile devices that are receiving requested (or pushed in case of updates or software installations) data.
+
 PoP - Point of Presence; datacenter strategically placed to deliver content with the best possible latency to as many clients/endpoints as possible. It is consisent of multiple cache servers responsible for content delivery. They are acting as well as a protection for the origin server to ensure it's not being hit by too many data requests and cause overload
 
 Super PoP - bigger version od PoP. It can act as a data supplier for other PoPs, but also as a direct PoP for client if no regular PoP is available. 
