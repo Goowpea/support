@@ -4,7 +4,7 @@ Task 1 - answer
 I noticed one problem that might be causing weird behavior from Varnish. 
 Expire header is holding the date very far back in the past: Thu, 01 Jan 1970 00:00:00 GMT. In addition the Cache-Control is set to no-cache, no-store, must-revalidate.
 
-This causes the data object to expire immediately which results in them not being cached which leads to origin server being constantly pulled for data which renders the Varnish solution obsolete.
+This causes the data object to expire immediately which results in them not being cached which leads to origin/storage server being constantly pulled for data which renders the Varnish solution obsolete.
 
 There are three possible options that might solve this problem. 
 
