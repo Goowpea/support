@@ -54,7 +54,7 @@ Edge node - servers delivering content to the end users as they are the closest 
 
 Storage node - servers storing copy of the data that is being distributed from the origin server. They are standing behind Edge nodes as commonly they have larger, but slower storage media.
 
-Shield - storage tier servers (or PoP) protecting the origin serves from incoming requests to avoid overload and reduce slowness/latency. Sheild collapses the same requests to avoid hitting the server as well as define chaching rules for the data.
+Shield - storage tier servers (or PoP) protecting the origin serves from incoming requests to avoid overload and reduce slowness/latency. Shield collapses the same requests to avoid hitting the server as well as define chaching rules for the data.
 
 Origin - servers being the main source of the content that is being distributed across the infrastructure by the Content Delivery Network
 
